@@ -1,0 +1,49 @@
+body {
+   font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings: "wdth" 100;
+}
+
+.display-2 {
+   font-weight: 700 !important;
+}
+
+footer {
+   padding: 3rem;
+}
+
+footer,
+.navbar-custom {
+   background-color: #E83E8C;
+   color: white;
+}
+
+.accept-cards-section {
+   background-color: #17A2B8;
+   /* Color de fondo */
+   color: white;
+   padding: 2.5rem;
+}
+
+.accept-cards-section h3 {
+   margin-right: 20px;
+   white-space: nowrap;
+}
+
+.accept-cards-section .card-icons {
+   display: flex;
+   align-items: center;
+}
+
+.accept-cards-section .card-icons i {
+   font-size: 3em;
+   margin: 0 10px;
+}
+
+@media (max-width: 576px) {
+   .accept-cards-section .card-icons {
+      display: none;
+   }
+}
